@@ -1,0 +1,45 @@
+You ship an AI agent to production. It works 90% of the time. The other 10%? Invalid output. Crashed downstream systems. Manual fixes in Slack at 3am.
+
+Mellea stops that.
+
+Most AI frameworks—LangChain, CrewAI, DSPy—are great at orchestration. But they ship outputs without checking if they're actually good enough for your use case.
+
+Your agent returns something that doesn't meet your requirements. Downstream code breaks. You're back-filling fixes in production.
+
+Mellea adds one pattern to every framework. Generate output. Validate it against your spec. If it fails—retry with feedback. Return the best result.
+
+You define what "good enough" means. A word count range. Required fields. Clarity score. Anything measurable.
+
+Mellea wraps your model and handles the rest. Generate, check, retry, done.
+
+Product descriptions with Mellea validation.
+
+Requirements: between 50 and 200 words, mention at least two features, include a benefit statement.
+
+First try: 45 words. Too short. Validation fails.
+
+Second try: includes features but no benefit. Still fails.
+
+Third try: passes. We got a spec-compliant output in three attempts.
+
+8 seconds and one extra API call. Bad outputs cost you hours in fixes—this pays for itself.
+
+Multi-agent systems? Each agent has its own output spec.
+
+Mellea validates each agent independently. Agent A must produce a summary under 100 words. Agent B must format output as JSON.
+
+Agent A passes on first try. Agent B retries once and passes.
+
+DSPy does typed signatures, but no quality guarantees. Mellea adds them.
+
+We validate the structured output meets our comprehensiveness and clarity thresholds, all within DSPy's type system.
+
+Validation adds latency and API cost. Tighter specs mean more retries.
+
+Not every use case. If you're generating casual summaries for an internal dashboard, skip it.
+
+But if bad output breaks downstream systems or wastes human time? Validation pays for itself.
+
+Try it yourself. Head to mellea.ai, grab the framework integration you use—LangChain, CrewAI, or DSPy—and add one validation layer to your next chain.
+
+Link in the description.

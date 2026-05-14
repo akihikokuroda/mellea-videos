@@ -1,0 +1,98 @@
+NARRATION SEGMENTS - Agentic Framework Integrations Demo
+============================================================
+
+Segment 1: Cold Open / Hook (0:00–0:20, ~20s)
+---
+You ship an AI agent to production. It works 90% of the time. [PAUSE] The other 10%? Invalid output. Crashed downstream systems. Manual fixes in Slack at 3am.
+
+Mellea stops that. [EMPHASIS]
+
+---
+
+Segment 2: Problem Context (0:20–0:50, ~30s)
+---
+Most AI frameworks—LangChain, CrewAI, DSPy—are great at orchestration. But they ship outputs without checking if they're actually [SLOW DOWN] *good enough* for your use case.
+
+Your agent returns something that doesn't meet your requirements. Downstream code breaks. You're back-filling fixes in production.
+
+---
+
+Segment 3: The Pattern Part 1 (0:50–1:00, ~10s)
+---
+Mellea adds one pattern to every framework. [PAUSE] Generate output. Validate it against your spec. If it fails—retry with feedback. Return the best result.
+
+---
+
+Segment 4: The Pattern Part 2 (1:00–1:20, ~20s)
+---
+You define what "good enough" means. A word count range. Required fields. Clarity score. Anything measurable.
+
+Mellea wraps your model and handles the rest. Generate, check, retry, done.
+
+---
+
+Segment 5: Demo Setup (1:45–1:55, ~10s)
+---
+Product descriptions with Mellea validation.
+
+Requirements: between 50 and 200 words, mention at least two features, include a benefit statement.
+
+---
+
+Segment 6: Demo Attempt 1 (1:55–2:10, ~15s)
+---
+First try: [PAUSE] 45 words. Too short. Validation fails.
+
+---
+
+Segment 7: Demo Attempt 2 (2:10–2:30, ~20s)
+---
+Second try: includes features but no benefit. Still fails.
+
+Third try: [EMPHASIS] passes. We got a spec-compliant output in three attempts.
+
+---
+
+Segment 8: Demo Results (2:30–2:50, ~20s)
+---
+8 seconds and one extra API call. Bad outputs cost you hours in fixes—this pays for itself.
+
+---
+
+Segment 9: Multi-Agent Systems (2:50–3:10, ~20s)
+---
+Multi-agent systems? Each agent has its own output spec.
+
+Mellea validates each agent independently. Agent A must produce a summary under 100 words. Agent B must format output as JSON.
+
+Agent A passes on first try. Agent B retries once and passes.
+
+---
+
+Segment 10: DSPy Integration (3:10–3:30, ~20s)
+---
+DSPy does typed signatures, but no quality guarantees. Mellea adds them.
+
+We validate the structured output meets our comprehensiveness and clarity thresholds, all within DSPy's type system.
+
+---
+
+Segment 11: Tradeoff Discussion (3:50–4:15, ~25s)
+---
+Validation adds latency and API cost. Tighter specs mean more retries.
+
+[CASUAL] Not every use case. If you're generating casual summaries for an internal dashboard, skip it.
+
+But if bad output breaks downstream systems or wastes human time? [EMPHASIS] Validation pays for itself.
+
+---
+
+Segment 12: Call to Action (4:15–4:30, ~15s)
+---
+Try it yourself. Head to mellea.ai, grab the framework integration you use—LangChain, CrewAI, or DSPy—and add one validation layer to your next chain.
+
+[PAUSE]
+
+Link in the description.
+
+---

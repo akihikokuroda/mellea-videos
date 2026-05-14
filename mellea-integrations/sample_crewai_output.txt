@@ -1,0 +1,29 @@
+=== 20:08:40-INFO ======
+Starting Mellea session: backend=ollama, model=granite4:micro, context=SimpleContext
+  0%|                                                                                                                                                                               | 0/4 [00:00<?, ?it/s]=== 20:08:41-INFO ======
+FAILED. Valid: 1/3. Failed: 
+	 - Summary must be under 160 words
+	 - Avoid unnecessary jargon
+ 25%|█████████████████████████████████████████▊                                                                                                                             | 1/4 [00:01<00:04,  1.43s/it]=== 20:08:43-INFO ======
+FAILED. Valid: 2/3. Failed: 
+	 - Avoid unnecessary jargon
+ 50%|███████████████████████████████████████████████████████████████████████████████████▌                                                                                   | 2/4 [00:02<00:03,  1.50s/it]=== 20:08:44-INFO ======
+SUCCESS
+ 50%|███████████████████████████████████████████████████████████████████████████████████▌                                                                                   | 2/4 [00:04<00:04,  2.28s/it]
+  0%|                                                                                                                                                                               | 0/5 [00:00<?, ?it/s]=== 20:08:46-INFO ======
+SUCCESS
+  0%|                                                                                                                                                                               | 0/5 [00:02<?, ?it/s]
+Result: {
+  "title": "Advancements in AI Reliability",
+  "summary": "AI systems are becoming more reliable due to advancements by researchers. Significant progress includes enhanced alignment techniques and stronger testing frameworks, which contribute to improved functionality and dependability of AI systems.",
+  "key_points": [
+    "Enhanced alignment techniques",
+    "Stronger testing frameworks",
+    "Improved safety measures",
+    "Increased user trust"
+  ],
+  "metadata": {
+    "source": "AI system advancements context",
+    "date": "Current date"
+  }
+}

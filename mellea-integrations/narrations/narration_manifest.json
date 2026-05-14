@@ -1,0 +1,86 @@
+[
+  {
+    "segment_id": "01_hook",
+    "timecode": "0:00\u20130:20",
+    "duration_s": 20,
+    "filename": "narration_01_hook.mp3",
+    "filepath": "narration_audio/narration_01_hook.mp3"
+  },
+  {
+    "segment_id": "02_problem",
+    "timecode": "0:20\u20130:50",
+    "duration_s": 30,
+    "filename": "narration_02_problem.mp3",
+    "filepath": "narration_audio/narration_02_problem.mp3"
+  },
+  {
+    "segment_id": "03_pattern_1",
+    "timecode": "0:50\u20131:00",
+    "duration_s": 10,
+    "filename": "narration_03_pattern_1.mp3",
+    "filepath": "narration_audio/narration_03_pattern_1.mp3"
+  },
+  {
+    "segment_id": "04_pattern_2",
+    "timecode": "1:00\u20131:20",
+    "duration_s": 20,
+    "filename": "narration_04_pattern_2.mp3",
+    "filepath": "narration_audio/narration_04_pattern_2.mp3"
+  },
+  {
+    "segment_id": "05_demo_setup",
+    "timecode": "1:45\u20131:55",
+    "duration_s": 10,
+    "filename": "narration_05_demo_setup.mp3",
+    "filepath": "narration_audio/narration_05_demo_setup.mp3"
+  },
+  {
+    "segment_id": "06_demo_attempt_1",
+    "timecode": "1:55\u20132:10",
+    "duration_s": 15,
+    "filename": "narration_06_demo_attempt_1.mp3",
+    "filepath": "narration_audio/narration_06_demo_attempt_1.mp3"
+  },
+  {
+    "segment_id": "07_demo_attempt_2",
+    "timecode": "2:10\u20132:30",
+    "duration_s": 20,
+    "filename": "narration_07_demo_attempt_2.mp3",
+    "filepath": "narration_audio/narration_07_demo_attempt_2.mp3"
+  },
+  {
+    "segment_id": "08_demo_results",
+    "timecode": "2:30\u20132:50",
+    "duration_s": 20,
+    "filename": "narration_08_demo_results.mp3",
+    "filepath": "narration_audio/narration_08_demo_results.mp3"
+  },
+  {
+    "segment_id": "09_multi_agent",
+    "timecode": "2:50\u20133:10",
+    "duration_s": 20,
+    "filename": "narration_09_multi_agent.mp3",
+    "filepath": "narration_audio/narration_09_multi_agent.mp3"
+  },
+  {
+    "segment_id": "10_dspy",
+    "timecode": "3:10\u20133:30",
+    "duration_s": 20,
+    "filename": "narration_10_dspy.mp3",
+    "filepath": "narration_audio/narration_10_dspy.mp3"
+  },
+  {
+    "segment_id": "11_tradeoff",
+    "timecode": "3:50\u20134:15",
+    "duration_s": 25,
+    "filename": "narration_11_tradeoff.mp3",
+    "filepath": "narration_audio/narration_11_tradeoff.mp3"
+  },
+  {
+    "segment_id": "12_cta",
+    "timecode": "4:15\u20134:30",
+    "duration_s": 15,
+    "filename": "narration_12_cta.mp3",
+    "filepath": "narration_audio/narration_12_cta.mp3"
+  }
+]
