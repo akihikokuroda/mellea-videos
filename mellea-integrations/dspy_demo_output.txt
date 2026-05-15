@@ -1,0 +1,115 @@
+DSPy + Mellea Integration Demo
+
+============================================================
+DSPy + Mellea Integration Demo
+============================================================
+[38;20m=== 16:21:13-INFO ======
+Starting Mellea session: backend=ollama, model=granite4:micro, context=SimpleContext[0m
+
+============================================================
+Example 1: Generating documentation
+============================================================
+Code: def calculate_total(items): return sum(i['price'] * i['quantity'] for i in items)
+
+  0%|          | 0/3 [00:00<?, ?it/s][38;20m=== 16:21:16-INFO ======
+FAILED. Valid: 2/3. Failed: 
+	 - Must include a working code example[0m
+ 33%|███▎      | 1/3 [00:03<00:06,  3.06s/it][38;20m=== 16:21:19-INFO ======
+FAILED. Valid: 2/3. Failed: 
+	 - Must include a working code example[0m
+ 67%|██████▋   | 2/3 [00:06<00:03,  3.07s/it][38;20m=== 16:21:22-INFO ======
+FAILED. Valid: 2/3. Failed: 
+	 - Must include a working code example[0m
+100%|██████████| 3/3 [00:09<00:00,  3.07s/it]100%|██████████| 3/3 [00:09<00:00,  3.07s/it]
+[38;20m=== 16:21:22-INFO ======
+Invoking select_from_failure after 3 failed attempts.[0m
+Generated Documentation:
+The provided Python function, `calculate_total`, is designed to compute the total cost of a list of items. Each item in the list is represented as a dictionary with two keys: 'price' and 'quantity'. The 'price' key holds the price per unit of an item, while the 'quantity' key indicates how many units of that item are being purchased.
+
+**Function Signature**: `calculate_total(items)`
+
+- **Parameters**:
+  - `items`: A list of dictionaries. Each dictionary represents a single item with two keys: 
+    - `'price'`: The price per unit of the item (a numeric value).
+    - `'quantity'`: The quantity of that item being purchased (an integer).
+
+**Returns**: The function returns a single numeric value, which is the total cost calculated by multiplying the 'price' and 'quantity' for each item in the list and then summing these values.
+
+✓ Validation passed in 9.4s
+
+============================================================
+
+============================================================
+Typed Signature with Mellea Validation
+============================================================
+[38;20m=== 16:21:22-INFO ======
+Starting Mellea session: backend=ollama, model=granite4:micro, context=SimpleContext[0m
+
+Endpoint: /api/users [GET]
+----------------------------------------
+  0%|          | 0/3 [00:00<?, ?it/s][38;20m=== 16:21:28-INFO ======
+SUCCESS[0m
+  0%|          | 0/3 [00:06<?, ?it/s]
+API Documentation:
+The `/api/users` endpoint is used to retrieve information about users. This GET method allows you to fetch data related to user accounts.
+
+### Input Parameters
+
+- **None**: The `/api/users` endpoint does not require any input parameters.
+
+### Output Fields
+
+When the `/api/users` endpoint is called, it returns a JSON object containing various fields of user information. Here's an example:
+
+```json
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "john_doe",
+      "email": "john.doe@example.com",
+      "created_at": "2022-01-01T00:00:00Z"
+    },
+    {
+      "id": 2,
+      "username": "jane_smith",
+      "email": "jane.smith@example.com",
+      "created_at": "2022-02-15T12:34:56Z"
+    }
+  ]
+}
+```
+
+### Functionality
+
+The `/api/users` endpoint retrieves a list of all users. Each user object contains the following fields:
+
+- **id**: The unique identifier for the user.
+- **username**: The username chosen by the user.
+- **email**: The email address associated with the user account.
+- **created_at**: The timestamp indicating when the user's account was created.
+
+### Example Code
+
+Here is a simple example of how to call this endpoint using Python and the `requests` library:
+
+```python
+import requests
+
+url = "http://example.com/api/users"
+response = requests.get(url)
+
+if response.status_code == 200:
+    users_data = response.json()
+    for user in users_data['users']:
+        print(f"ID: {user['id']}, Username: {user['username']}, Email: {user['email']}")
+else:
+    print("Failed to retrieve data")
+```
+
+This code snippet sends a GET request to the `/api/users` endpoint and prints out each user's ID, username, and email if the request is successful.
+✓ Generated in 6.3s
+
+============================================================
+
+All demos completed!

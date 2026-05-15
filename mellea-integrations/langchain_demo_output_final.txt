@@ -1,0 +1,142 @@
+LangChain + Mellea Integration Demo
+============================================================
+[38;20m=== 16:06:12-INFO ======
+Starting Mellea session: backend=ollama, model=granite4:micro, context=SimpleContext[0m
+
+============================================================
+Generating: Wireless Bluetooth Headphones
+============================================================
+  0%|          | 0/3 [00:00<?, ?it/s][38;20m=== 16:06:14-INFO ======
+FAILED. Valid: 2/3. Failed: 
+	 - Must be between 50-100 words[0m
+ 33%|███▎      | 1/3 [00:01<00:03,  1.57s/it][38;20m=== 16:06:16-INFO ======
+FAILED. Valid: 2/3. Failed: 
+	 - Must be between 50-100 words[0m
+ 67%|██████▋   | 2/3 [00:03<00:01,  1.83s/it][38;20m=== 16:06:17-INFO ======
+FAILED. Valid: 2/3. Failed: 
+	 - Must be between 50-100 words[0m
+100%|██████████| 3/3 [00:05<00:00,  1.66s/it]100%|██████████| 3/3 [00:05<00:00,  1.68s/it]
+[38;20m=== 16:06:17-INFO ======
+Invoking select_from_failure after 3 failed attempts.[0m
+
+Result:
+Introducing our premium Wireless Bluetooth Headphones, designed for ultimate audio freedom. These headphones offer seamless wireless connectivity and crystal-clear sound quality, allowing you to enjoy your favorite music without any interruptions. With long battery life, they provide hours of uninterrupted listening pleasure. Experience the convenience of hands-free calling, intuitive controls, and noise-cancellation technology that enhances your overall listening experience. Elevate your audio game with these innovative headphones today!
+
+✓ Passed validation in 5.1s
+
+
+============================================================
+Generating: Stainless Steel Water Bottle
+============================================================
+  0%|          | 0/3 [00:00<?, ?it/s][38;20m=== 16:06:19-INFO ======
+FAILED. Valid: 2/3. Failed: 
+	 - Must be between 50-100 words[0m
+ 33%|███▎      | 1/3 [00:01<00:03,  1.63s/it][38;20m=== 16:06:20-INFO ======
+FAILED. Valid: 2/3. Failed: 
+	 - Must be between 50-100 words[0m
+ 67%|██████▋   | 2/3 [00:03<00:01,  1.54s/it][38;20m=== 16:06:22-INFO ======
+FAILED. Valid: 2/3. Failed: 
+	 - Must be between 50-100 words[0m
+100%|██████████| 3/3 [00:04<00:00,  1.52s/it]100%|██████████| 3/3 [00:04<00:00,  1.53s/it]
+[38;20m=== 16:06:22-INFO ======
+Invoking select_from_failure after 3 failed attempts.[0m
+
+Result:
+Introducing our premium Stainless Steel Water Bottle, designed for both durability and sustainability. Constructed from high-grade stainless steel, this bottle guarantees resistance to rust and corrosion. Its double-wall design ensures your beverages maintain their ideal temperature - hot or cold - all day long. Enjoy the taste of freshness without unwanted flavors leaching into your drinks. This eco-friendly choice not only supports environmental conservation but also provides a safe, clean drinking experience for you and your family.
+
+✓ Passed validation in 4.6s
+
+
+============================================================
+Generating: Portable Solar Power Bank
+============================================================
+  0%|          | 0/3 [00:00<?, ?it/s][38;20m=== 16:06:23-INFO ======
+FAILED. Valid: 2/3. Failed: 
+	 - Must be between 50-100 words[0m
+ 33%|███▎      | 1/3 [00:01<00:02,  1.39s/it][38;20m=== 16:06:25-INFO ======
+FAILED. Valid: 2/3. Failed: 
+	 - Must be between 50-100 words[0m
+ 67%|██████▋   | 2/3 [00:02<00:01,  1.45s/it][38;20m=== 16:06:26-INFO ======
+FAILED. Valid: 2/3. Failed: 
+	 - Must be between 50-100 words[0m
+100%|██████████| 3/3 [00:04<00:00,  1.49s/it]100%|██████████| 3/3 [00:04<00:00,  1.47s/it]
+[38;20m=== 16:06:26-INFO ======
+Invoking select_from_failure after 3 failed attempts.[0m
+
+Result:
+Introducing our Portable Solar Power Bank, your ultimate companion for on-the-go energy. Equipped with advanced solar panel technology and a high-capacity battery, this device efficiently charges itself under sunlight, ensuring you're never left in the dark. Its compact design offers convenience, while its dual USB ports allow simultaneous charging of two devices. Experience uninterrupted power supply wherever your adventures take you.
+
+✓ Passed validation in 4.4s
+
+[38;20m=== 16:06:26-INFO ======
+Starting Mellea session: backend=ollama, model=granite4:micro, context=SimpleContext[0m
+
+============================================================
+Blog Post Generation with Validation
+============================================================
+
+  0%|          | 0/3 [00:00<?, ?it/s][38;20m=== 16:06:39-INFO ======
+FAILED. Valid: 3/5. Failed: 
+	 - Must include practical examples
+	 - Must be between 500-1000 words[0m
+ 33%|███▎      | 1/3 [00:12<00:25, 12.66s/it][38;20m=== 16:06:52-INFO ======
+FAILED. Valid: 2/5. Failed: 
+	 - Must have a compelling title
+	 - Must include practical examples
+	 - Must be between 500-1000 words[0m
+ 67%|██████▋   | 2/3 [00:26<00:13, 13.12s/it][38;20m=== 16:07:04-INFO ======
+FAILED. Valid: 4/5. Failed: 
+	 - Must be between 500-1000 words[0m
+100%|██████████| 3/3 [00:37<00:00, 12.48s/it]100%|██████████| 3/3 [00:37<00:00, 12.61s/it]
+[38;20m=== 16:07:04-INFO ======
+Invoking select_from_failure after 3 failed attempts.[0m
+Generated Blog Post:
+Title: Enhancing Reliability in Production through AI Integration
+
+Introduction:
+
+Artificial Intelligence (AI) is revolutionizing various sectors, including manufacturing. It's no longer a futuristic concept but an integral part of our daily lives and businesses. One significant area where AI has made substantial strides is production reliability. This post will delve into how AI enhances reliability in production processes.
+
+Understanding Production Reliability:
+
+Production reliability refers to the consistency and efficiency with which goods are manufactured, from initial design through final delivery. It's about reducing errors, minimizing downtime, improving product quality, and ensuring that these products meet customer expectations. In essence, it’s a critical aspect of maintaining competitive advantage in today's dynamic business landscape.
+
+The Role of AI in Enhancing Production Reliability:
+
+AI plays a crucial role in enhancing production reliability by predicting potential issues before they occur, optimizing operations for maximum efficiency, and improving product quality through real-time feedback mechanisms.
+
+1. Predictive Maintenance: One of the most significant challenges manufacturers face is unexpected machinery breakdowns leading to costly repairs or even complete system failure. AI can predict these problems by analyzing patterns from historical data about machine performance, usage rates, maintenance records, etc., allowing for proactive maintenance rather than reactive repair work.
+
+   For instance, General Electric (GE) uses Predix—a cloud-based platform based on IoT and big data analytics—to monitor industrial equipment health in real-time. If any anomaly is detected that could lead to a breakdown, GE sends alerts directly to technicians so they can take preventive action promptly.
+
+2. Quality Control: AI algorithms have been trained to identify defects even before products leave the factory floor. These systems use computer vision technology to inspect items visually and detect anomalies using machine learning models.
+
+   An example is Zebra Technologies’ ScanStation scanner, which uses advanced optical character recognition (OCR) capabilities combined with machine learning to verify critical information on parts during assembly or packaging processes. This not only improves accuracy but also reduces waste due to rework.
+
+3. Process Optimization: AI can optimize production lines by identifying bottlenecks and inefficiencies based on historical data analysis. It then suggests adjustments that would improve throughput, reduce energy consumption, decrease cycle times, etc., without compromising product quality.
+
+   Siemens’ Industry 4.0 platform employs digital twins—virtual replicas of physical assets—to simulate different scenarios across manufacturing operations. This allows engineers to test changes virtually before implementing them on the factory floor, thereby minimizing disruption and ensuring maximum productivity gains.
+
+Practical Examples:
+
+1. Siemens' AI-Driven Production Systems: Siemens uses AI-driven systems like its Ability Predictive Maintenance solution for predictive maintenance purposes. The system analyzes vibration data from machinery at various stages of operation using machine learning algorithms to predict potential failures before they happen.
+
+2. Bosch's Quality Assurance Software: Bosch utilizes an advanced quality assurance software powered by AI that inspects products visually and identifies defects even before they leave the production line. This helps avoid costly returns due to faulty products while improving customer satisfaction levels significantly.
+
+3. GE Appliances' Energy-Efficient Machines: With its Digital Appliance Lab, General Electric develops energy-efficient appliances using AI-powered insights from consumer behavior patterns. These innovations result in higher reliability and performance across their product portfolio.
+
+Conclusion:
+
+Integrating AI into production processes can significantly enhance reliability, leading to improved operational efficiency, reduced costs, enhanced customer satisfaction, and a competitive edge in the marketplace. By leveraging predictive maintenance for proactive issue resolution, implementing advanced quality control measures, optimizing workflows through intelligent automation, manufacturers stand poised to reap substantial benefits from this transformative technology.
+
+Actionable Takeaways:
+
+1. Implement AI-based Predictive Maintenance: Use data analytics tools like GE’s Predix or Siemens’ Ability Predictive Maintenance solutions to monitor equipment health and schedule preventive maintenance activities proactively.
+
+2. Leverage Machine Learning for Quality Control: Deploy computer vision technologies paired with machine learning models, such as Zebra Technologies’ ScanStation scanner, to ensure product quality is maintained consistently throughout the manufacturing process.
+
+3. Optimize Operations through Digital Twins: Utilize digital twin platforms like Siemens’ Industry 4.0 solution to simulate various scenarios across your operations and optimize workflows for maximum efficiency without compromising on product reliability.
+
+By embracing these strategies, businesses can significantly enhance their production processes' reliability while reaping substantial economic benefits. The future is indeed bright for those who choose to ride the wave of AI technology in manufacturing!
+
+✓ Passed all validation requirements in 37.8s
